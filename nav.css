@@ -1,3 +1,55 @@
 body {
-  color: gray;
+  background: tan;
+}
+
+
+nav {
+  width: 100%;
+  position: absolute;
+  top:0;
+}
+
+nav ul {
+  list-style-type: none;
+  float:right;
+
+
+}
+
+nav li {
+  display: inline;
+   border: 2px black solid;
+
+}
+
+nav ul li {
+  margin-right: 10px;
+
+}
+
+nav ul li a {
+  padding: 15px;
+
+}
+
+
+a:link {
+  color:blue;
+
+}
+
+
+a:hover {
+  color: forestgreen;
+
+}
+
+li:hover {
+  background-color:lightyellow;
+
+}
+
+a:visited {
+  font-size: 150px;
+
 }
