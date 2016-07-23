@@ -22,6 +22,12 @@ nav li {
 
 }
 
+nav ul li a:active,
+nav li a:target{
+  font-size: 5px;
+
+}
+
 nav ul li {
   margin-right: 10px;
 
